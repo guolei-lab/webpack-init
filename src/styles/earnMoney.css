@@ -1,0 +1,438 @@
+.earn-money {
+  background-color: white;
+  padding-top: 0.194444rem;
+}
+
+.earn-money .ban-map {
+  padding: 0.194444rem 0;
+}
+
+.earn-money .wrapper {
+  background: #fff;
+  width: 100%;
+}
+
+.earn-money .wrapper .swiper-slide {
+  padding: 0 0.166667rem;
+  width: 100%;
+  text-align: center;
+}
+
+.earn-money .wrapper .swiper-img {
+  width: 100%;
+  height: 3.583333rem;
+}
+
+.check-view {
+  padding: 0.444444rem;
+  overflow: hidden;
+  background: #fff;
+}
+
+.check-view .icon-tip-dark {
+  margin-right: 0.083333rem;
+  height: 0.333333rem;
+  width: 0.333333rem;
+}
+
+.check-view .check-rules {
+  margin-bottom: 1.111111rem;
+  justify-content: space-between;
+}
+
+.check-view .check-rules>strong,
+.check-view .check-rules>span {
+  font-size: 0.388889rem;
+}
+
+.check-view .check-rules>strong {
+  font-weight: bolder;
+  margin-right: 0.083333rem;
+}
+
+.check-view .check-day-cell {
+  position: relative;
+}
+
+.check-view .check-day-cell .extra {
+  width: 0.888889rem;
+  height: 0.555556rem;
+  line-height: 0.416667rem;
+  color: #fff;
+  background: url('../../assets/images/checkin-extra-bg.png') no-repeat;
+  background-size: contain;
+  position: absolute;
+  top: -0.611111rem;
+  text-align: center;
+  font-size: 0.277778rem;
+}
+
+.check-view .check-day-cell .coin {
+  height: 1.055556rem;
+  width: 1.055556rem;
+  font-size: 0.333333rem;
+  line-height: 1.055556rem;
+  text-align: center;
+  color: #641901;
+  background: url('../../assets/images/coin_bg.png') center center no-repeat;
+  background-size: 100% 100%;
+}
+
+.check-view .check-day-cell .gift {
+  height: 1.055556rem;
+  width: 1.055556rem;
+  font-size: 0.333333rem;
+  line-height: 1.055556rem;
+  text-align: center;
+  color: #641901;
+}
+
+.check-view .check-day-cell .gift img {
+  width: 100%;
+}
+
+.check-view .check-day-cell.-isChecked .coin {
+  background-image: url('../../assets/images/checked_bg.png');
+}
+
+.check-view .check-day-cell .day {
+  height: 0.555556rem;
+  padding: 0.055556rem;
+  line-height: 0.555556rem;
+  font-size: 0.277778rem;
+}
+
+.check-view .checkin-btn {
+  width: 4.944444rem;
+  height: 1.333333rem;
+  background: #f45703;
+  border-radius: 0.666667rem;
+  margin: 0 auto;
+  font-size: 0.444444rem;
+  color: #fff;
+  display: block;
+  margin-top: 0.444444rem;
+}
+
+.check-view .checkedin-btn {
+  width: 4.944444rem;
+  height: 1.333333rem;
+  background: #e1dbdb;
+  border-radius: 0.666667rem;
+  margin: 0 auto;
+  font-size: 0.444444rem;
+  color: #fff;
+  display: block;
+  margin-top: 0.444444rem;
+}
+
+.android-ad {
+  padding: 0.833333rem 0;
+  width: 100%;
+  background-color: #fff;
+}
+
+
+.task-box{
+  background: #e1dbdb;
+}
+.task-item {
+  padding: 0.388889rem 0;
+  display: flex;
+  border-bottom: 0.027778rem solid #ededed;
+}
+
+.task-icon {
+  width: 0.694444rem;
+  margin-top: 0.083333rem;
+  align-self: flex-start;
+}
+
+.task-info {
+  flex: 1;
+  padding: 0 0.472222rem;
+}
+
+.task-info .task-title {
+  font-size: 0.388889rem;
+  line-height: 0.5rem;
+  padding-bottom: 0.166667rem;
+  color: #f45703;
+  font-weight: bold;
+
+}
+
+.task-info .task-description {
+  line-height: 0.444444rem;
+  font-size: 0.333333rem;
+  color: black;
+}
+
+.task-link {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 0;
+  width: 2.444444rem;
+  height: 1.111111rem;
+  align-self: center;
+  color: white;
+  font-size: 0.444444rem;
+  font-weight: bolder;
+  background: linear-gradient(to bottom, #ffbc03, #f68c00);
+  border-radius: 0.055556rem;
+}
+
+.task-link strong {
+  line-height: 0.694444rem;
+  margin: 0 0.055556rem;
+  font-weight: bold;
+}
+
+.task-link .link-icon {
+  width: 0.666667rem;
+}
+
+
+
+
+
+.button--green {
+  display: inline-block;
+  border-radius: 0.111111rem;
+  border: 0.027778rem solid #3b8070;
+  color: #3b8070;
+  text-decoration: none;
+  padding: 0.277778rem 0.833333rem;
+}
+
+.button--green:hover {
+  color: #fff;
+  background-color: #3b8070;
+}
+
+.button--grey {
+  display: inline-block;
+  border-radius: 0.111111rem;
+  border: 0.027778rem solid #35495e;
+  color: #35495e;
+  text-decoration: none;
+  padding: 0.277778rem 0.833333rem;
+  margin-left: 0.416667rem;
+}
+
+.button--grey:hover {
+  color: #fff;
+  background-color: #35495e;
+}
+
+.popup-parent--hidden {
+  height: 100%;
+  overflow: hidden;
+}
+
+.earn-money .my-bullet-active {
+  opacity: 1;
+  background: #fff;
+}
+
+.ad-banner.-small {
+  position: relative;
+  width: 100%;
+  min-height: 1.388889rem;
+  background: lightgray;
+}
+
+.ad-banner.-small>img {
+  width: 100%;
+}
+
+.ad-banner.-small .ad-tag {
+  position: absolute;
+  top: 0.138889rem;
+  right: 0.138889rem;
+  height: 0.611111rem;
+  width: 0.611111rem;
+  background: black;
+  opacity: 0.5;
+  color: #ffffff;
+  text-align: center;
+  font-size: 0.333333rem;
+  line-height: 0.611111rem;
+}
+
+.ad-banner.-small.fix {
+  position: fixed;
+  bottom: 0;
+}
+
+.task-list {
+  padding: 0 0.444444rem;
+  background: white;
+  margin: 0;
+}
+
+.mask {
+  position: fixed;
+  z-index: 9999;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0
+}
+
+.coinsAlert {
+  width: 7.777778rem;
+  height: 7.777778rem;
+  background: white;
+  border-radius: 1px;
+}
+
+.coinsAlert span {
+  margin-top: 0.277778rem;
+  font-weight: bold;
+  font-size: 0.555556rem;
+  font-family: Roboto-Regular;
+  color: #f45703;
+  line-height: 0.722222rem;
+  text-align: center;
+}
+
+.coinsAlert small {
+  font-size: 0.444444rem;
+  line-height: 0.777778rem;
+}
+
+.close-btn {
+  margin-top: 0.444444rem;
+}
+
+.close-btn img {
+  height: 1.222222rem;
+  width: 1.222222rem;
+}
+
+.coin {
+  height: 2.222222rem;
+  
+}
+
+.main {
+  display: none;
+}
+
+.calendar-tip {
+  padding: 0.111111rem;
+  font-size: 0.333333rem;
+  float: right;
+  background: #159ad4;
+  border-radius: 0.111111rem;
+  color: white;
+}
+
+
+
+.task-group-title {
+  margin-bottom: 0.222222rem;
+  font-size: 0.444444rem;
+  font-weight: bold;
+  color: #f45703;
+}
+
+.task-list {
+  margin-top: 0.222222rem;
+  padding: 0 0.444444rem;
+  padding-top: 0.666667rem;
+  background: white;
+}
+
+.task-item.-completed {
+  opacity: 0.8;
+  -webkit-filter: grayscale(100%);
+  filter: grayscale(100%);
+}
+
+.task-item.-completed .task-link {
+  background: #6e6e6e;
+  color: white;
+}
+
+
+.coinsAlert {
+  position: relative;
+  width: 7.777778rem;
+  height: 7.777778rem;
+  background: white;
+  border-radius: 0.027778rem;
+  padding: 0.805556rem 0.638889rem;
+  text-align: center;
+}
+.coinsAlert span {
+  margin-top: 0.277778rem;
+  font-weight: bold;
+  font-size: 0.555556rem;
+  font-family: Roboto-Regular;
+  color: #f45703;
+  line-height: 0.722222rem;
+  text-align: center;
+}
+.coinsAlert small {
+  font-size: 0.416667rem;
+  line-height: 0.555556rem;
+  font-weight: bold;
+}
+.close-btn {
+  position: absolute;
+  top: 0.444444rem;
+  right: 0.444444rem;
+}
+.close-btn img {
+  height: 0.444444rem;
+  width: 0.444444rem;
+   
+}
+#alert .coin{
+  height: 2.222222rem;
+  
+}
+#newUserAlert .coin{
+  height: 2.222222rem;
+   
+}
+#newUserAlert .extra-desc{
+  color: #f45703;
+  font-size: 14px;
+  margin-top: 16px;
+}
+
+#calendarAlert .coin {
+  height: 2.666667rem;
+  width: 2.666667rem;
+  margin-bottom: 0.25rem;
+  background: url(../../assets/images/coins_gift.svg) no-repeat;
+  background-size: contain;
+}
+.add-calender {
+  margin-top: 0.444444rem;
+  border-radius: 0.555556rem;
+  padding: 0.277778rem 0.472222rem;
+  background: #f45703;
+  color: white;
+  font-size: 0.444444rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.action  {
+  background: #f45703;
+  border-radius: 0.777778rem;
+  font-size: 0.444444rem;
+  line-height: 0.611111rem;
+  padding: 0.388889rem 1.25rem;
+  color: white;
+  margin-top: 0.444444rem;
+}
+.popup-parent--hidden {
+  height: 100%;
+  overflow: hidden;
+}
