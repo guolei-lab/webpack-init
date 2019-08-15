@@ -4,6 +4,7 @@ const webpack = require('webpack')
 const MiniCssExtractPlugin = require('mini-css-extract-plugin')
 const CopyWebpackPlugin  = require('copy-webpack-plugin')
 const { CleanWebpackPlugin } = require('clean-webpack-plugin')
+const UglifyjsPlugin = require('uglifyjs-webpack-plugin')
 const utils = require('./build/utils.js')
 module.exports = {
   entry: {
@@ -65,6 +66,22 @@ module.exports = {
       }
     ]
   },
+  // 优化性能webpack4
+  optimization: {
+    minimize: true,
+    minimizer: [
+      new UglifyjsPlugin({
+        uglifyOptions: {
+          compress: { drop_debugger: true },
+          output: {},
+          sourceMap: {},
+          ecma: 5,
+          ie8: true,
+          //...
+        }
+      })
+    ]
+  },
   plugins: [
     new CleanWebpackPlugin(),
     new webpack.DefinePlugin({
@@ -81,6 +98,8 @@ module.exports = {
         ignore: [".*"]
       }
     ]),
+    //处理编译时的错误
+    new webpack.NoEmitOnErrorsPlugin(),
     new webpack.NamedModulesPlugin({}),
     new webpack.HotModuleReplacementPlugin(),
     new MiniCssExtractPlugin({
